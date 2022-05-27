@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 const postResolvers = require("./posts");
 const userResolvers = require("./users");
 const commentResolvers = require("./comments");

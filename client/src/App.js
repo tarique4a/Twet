@@ -19,6 +19,7 @@ import SinglePost from "./pages/SinglePost";
 
 function App() {
   return (
+    <>
     <AuthProvider>
       <Router>
         <Container>
@@ -37,6 +38,7 @@ function App() {
       </Router>
       {/* // <div>App</div> */}
     </AuthProvider>
+    </>
   );
 }
 
